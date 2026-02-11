@@ -111,7 +111,6 @@ footer {
   font-size: 0.9rem;
 }
 
-/* SECTION EDUCATION & EXPERIENCE UNIFIÉE */
 #educations, #experiences {
   max-width: 900px;
   margin: auto;
@@ -121,34 +120,34 @@ footer {
 #educations h2, #experiences h2 {
   margin-bottom: 1.5rem;
   color: #0f172a;
+  font-size: 1.8rem;
   border-bottom: 2px solid #2563eb;
   display: inline-block;
-  padding-bottom: 0.2rem;
+  padding-bottom: 0.3rem;
 }
 
 .education, .experience {
   background: white;
-  padding: 1.5rem;
-  margin-bottom: 1rem;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1.5rem;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .education:hover, .experience:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
 }
 
 .education h3, .experience h3 {
   color: #2563eb;
-  margin-bottom: 0.4rem;
-  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
 }
 
 .education p, .experience p {
   color: #555;
-  line-height: 1.5;
   font-size: 0.95rem;
   margin-bottom: 0.5rem;
 }
@@ -156,7 +155,7 @@ footer {
 .experience ul {
   list-style: disc inside;
   color: #333;
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 0.5rem;
 }
 
@@ -169,3 +168,4 @@ footer {
     padding: 1rem;
   }
 }
+
